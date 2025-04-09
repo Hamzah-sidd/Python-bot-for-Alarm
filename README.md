@@ -37,14 +37,6 @@ I often miss WhatsApp messages on my laptop while multitasking. This little bot 
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/whatsapp-alarm-bot.git
-cd whatsapp-alarm-bot
-
-
 
 🙏 Disclaimer
 This is a basic visual-detection tool—not connected to the WhatsApp API.
