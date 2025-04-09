@@ -45,26 +45,19 @@ git clone https://github.com/yourusername/whatsapp-alarm-bot.git
 cd whatsapp-alarm-bot
 
 
-**### 2. Install dependencies**
-bash
-Copy
-Edit
-pip install pyautogui playsound
 
-**### 3. Set up the alarm sound path**
-Replace the path to the .wav file in the script with your own path:
+🙏 Disclaimer
+This is a basic visual-detection tool—not connected to the WhatsApp API.
 
-python
-Copy
-Edit
-alarm_sound_path = "C:\\Path\\To\\Your\\alarm.wav"
+It won't read or interact with messages—just monitors for any change in the screen region.
 
-**### 4. Adjust the monitor region**
-Update the coordinates in the script to match the location where messages appear on your screen:
+✅ To-Do / Future Ideas
+Add a GUI to easily set the monitor region.
 
-python
-Copy
-Edit
-monitor_region = (left, top, width, height)
-Tip: Run pyautogui.displayMousePosition() in a separate script or use a screen tool to help get coordinates.
+Add support for different triggers or alarms.
 
+Smart filtering (only react to specific keywords or contacts).
+
+📬 Feedback or Suggestions?
+Feel free to open an issue or drop me a message on LinkedIn!
+I'd love to hear how you'd improve it or use it differently.
